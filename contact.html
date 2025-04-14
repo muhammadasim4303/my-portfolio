@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asim - Dev Portfolio | Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fancy-nav">
+        <div class="logo">
+            <span class="name">Muhammad Asim</span> | <CodeMaster/>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="fade-in">Have a project idea or just want to chat about code? Drop me a message!</p>
+        <form name="contact" action="https://formspree.io/f/xeoandaq" method="POST" class="contact-form">
+            <input type="hidden" name="form-name" value="contact">
+            <input type="text" name="name" placeholder="Your Name" required class="fade-in">
+            <input type="email" name="email" placeholder="Your Email" required class="fade-in">
+            <textarea name="message" rows="5" placeholder="Your Message" required class="fade-in"></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+            <input type="hidden" name="_redirect" value="https://yourdomain.com/thankyou.html">
+        </form>
+               
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/muhammadasimkhanhitec/" class="social-icon linkedin fade-in">LinkedIn</a>
+            <a href="https://github.com/muhammadasim4303" class="social-icon github fade-in">GitHub</a>
+            <a href="https://www.instagram.com/_asim.141/" class="social-icon twitter fade-in">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Muhammad Asim. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
