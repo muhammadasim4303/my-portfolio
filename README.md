@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is a responsive multi-page personal portfolio website created using HTML, CSS, and JavaScript. The project is designed to showcase your professional profile, skills, and projects in an interactive and visually appealing way.
+This is a responsive multi-page personal portfolio website created using HTML & CSS only. The project is designed to showcase your professional profile, skills, and projects in an interactive and visually appealing way.
 
 ## Features
 
@@ -31,4 +31,4 @@ This is a responsive multi-page personal portfolio website created using HTML, C
 3. Navigate using the menu links
 
 ## Folder Structure
-
+/portfolio-website ├── index.html ├── about.html ├── projects.html ├── contact.html ├── index.css ├── about.css ├── projects.css ├── contact.css/
